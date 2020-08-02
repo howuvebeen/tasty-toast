@@ -5,26 +5,26 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="images/preview.png" alt="Logo">
+    <a href="hhttps://calm-springs-24405.herokuapp.com/index.php"<img src="images/preview.png" alt="Logo"></a>
+</p>
 
-  <a href="hhttps://calm-springs-24405.herokuapp.com/index.php"><h2 align="center">Tasty Toast</h3></a>
+<a href="hhttps://calm-springs-24405.herokuapp.com/index.php"><h2 align="center">Tasty Toast</h3></a>
 
-  <p align="center">
-    <strong>A full stack website that visualizes various combination of toast toppings using PHP</strong>
-    <br />
-    <br />
-    <code>PHP</code>
-    ·
-    <code>Photo Gallery</code>
-    ·
-    <code>Many to Many</code>
-    ·
-    <code>Database</code>
-    ·
-    <code>SQLite</code>
-    ·
-    <code>File Upload</code>
-  </p>
+<p align="center">
+<strong>A full stack website that visualizes various combination of toast toppings using PHP</strong>
+<br />
+<br />
+<code>PHP</code>
+·
+<code>Photo Gallery</code>
+·
+<code>Many to Many</code>
+·
+<code>Database</code>
+·
+<code>SQLite</code>
+·
+<code>File Upload</code>
 </p>
 
 
@@ -62,27 +62,31 @@ Here's a brief overview of the key features of the website, their demos, and the
 To explore more, visit the webiste or look through the codes!
 
 <!-- PHOTO GALLERY -->
-### Features
+## Features
 
 
 - The photo gallery shows all the images of the toppings.
 - Once the user clicks a tag (type of a toast), one can view all the toppings for the toast.
+
 ![tag](gifs/tag.gif)
 
 - Once the user clicks an image (a topping), one can view it's info and all the tags belong to the image.
+
 ![tag](gifs/image.gif)
 
 - Users can upload an image (topping) to the gallery. The source of the images is a required input.
+
 ![tag](gifs/upload-image.gif)
 
 - Users can add both a new tag and an existing tag to the image. They can also delete an existing tag from the image.
+
 ![tag](gifs/add-existing-tag.gif)
 
 - Users can create a new tag or delete an existing tag. 
 
 
 <!-- DATABASE SCHEMA DESIGN -->
-### Database Schema Design
+## Database Schema Design
 
 This is summary of the database. To see seed data and the actual code, refer to **init.sql**.
 
@@ -105,7 +109,7 @@ This is summary of the database. To see seed data and the actual code, refer to 
 | tag_id   | 1, 2, 3 ... ( *INTEGER, FOREIGN KEY, NOT NULL* ) |
 
 <!-- REQUESTS -->
-### Requests
+## Requests
 
 These are some of the requests used in the website. To see more, refer to **gallery.php**, **index.php**, and **single.php**. 
 
