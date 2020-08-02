@@ -1,0 +1,248 @@
+/** body **/
+.all {
+    background-color:#eed7a4;
+    font-size: 1em;
+    font-family: 'Avenir',sans-serif;
+    margin: 0px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+    color: #333;
+  }
+
+.single, .gallery{
+    background-color: #eeada4;
+    font-size: 1em;
+    font-family: 'Avenir',sans-serif;
+    margin: 0px;
+    color: #333;
+}
+
+/** index.php **/
+
+main{
+  margin: 15px;
+  padding: 15px;
+}
+
+/* header */
+.row1{
+  display: flex;
+}
+
+.flex {
+  flex-direction: row;
+}
+
+/* body */
+.all .row2{
+  margin:20px;
+  padding:20px 0px 20px 0px;
+}
+
+.body-upload{
+  margin-left:20px;
+  padding-bottom: 100px;
+  width: 45%;
+  float: left;
+}
+
+.body-delete{
+  margin-right:20px;
+  padding-bottom: 100px;
+  width: 45%;
+  float: right;
+}
+
+.main-title{
+    background-color:white;
+    height: 300px;
+  }
+
+.main-title p {
+  font-size: 3em;
+  line-height: 300px;
+  margin: 0 auto;
+  font-family: 'Playfair Display',serif;
+  letter-spacing: 8px;
+}
+
+.body-intro p{
+  line-height: 30px;
+  font-size: 1.05em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 2.5;
+}
+
+/* form */
+form{
+  letter-spacing: 1px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-input > :first-child {
+  width: 40%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+label[for=image_src]  {
+  margin-bottom: 50px;
+}
+
+button[type=submit] {
+  margin-top: 10px;
+  margin-left: 43%;
+}
+
+.single button{
+  margin-top: 0px;
+  margin-left: 10%;
+}
+
+/* image-gallery */
+.gallery-images {
+  background-color: white;
+  padding: 60px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.gallery-images a{
+  text-decoration: none;
+}
+
+.single .gallery-images, .gallery .gallery-images{
+  display: flex;
+}
+
+.gallery-left{
+  width: 10%;
+}
+
+.gallery-right{
+  width: 90%;
+}
+
+.single-left{
+  width: 10%;
+}
+
+.single-middle{
+  width: 50%;
+}
+
+.single-right{
+  width: 40%;
+  margin-top: 55px;
+}
+
+.display-tag{
+  width: 100%;
+}
+
+.back{
+  font-size: 16px;
+  margin: 0px 10% 0px 0px;
+  padding: 0px;
+}
+
+.index-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: white;
+  object-fit: cover;
+  margin: 30px;
+  display: inline-block;
+}
+
+.single-image {
+  width: 260px;
+  height: 260px;
+  border-radius: 5px;
+  background-color: white;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.gallery-image {
+  width: 230px;
+  height: 230px;
+  border-radius: 5px;
+  background-color: white;
+  object-fit: cover;
+  margin: 28px;
+  display: inline-block;
+}
+
+.index-image:hover {
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+
+.index-tag {
+  margin: 15px;
+  padding: 10px;
+  text-align: left;
+}
+
+.index-tag, strong {
+  margin: 20px 20px 10px 0px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(71, 136, 172);
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+strong{
+  font-size: 18px;
+  margin: 0px;
+}
+
+.index-tag:hover {
+  background-color: #28536B;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+
+.single-tag {
+  margin: 0px 10px 10px 10px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(71, 136, 172);
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+input[id=tag_new] {
+  width: 110px;
+}
+
+button[name=delete_image],button[name=delete_tag_forever] {
+  margin:0px 0px 0px 10%;
+}
+
+.image_src {
+  font-size: 0.9em;
+}
+
+select {
+  width: 118px;
+  overflow: hidden;
+}
+
+.gallery-images .image_name{
+  margin-top: 0px;
+}

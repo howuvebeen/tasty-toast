@@ -1,0 +1,11 @@
+{
+    "explorer.openEditors.visible": 0,
+    "editor.wordWrap": "on",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.enableExperiments": false,
+    "phpserver.browser": "firefox",
+    "browser-preview.startUrl": "http://localhost:3000/",
+    "browser-preview.format": "png"
+}
