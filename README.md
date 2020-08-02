@@ -5,10 +5,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <a href="hhttps://calm-springs-24405.herokuapp.com/index.php"><img src="images/preview.png" alt="Logo"></a>
+    <a href="https://calm-springs-24405.herokuapp.com/index.php"><img src="images/preview.png" alt="Logo"></a>
 </p>
 
-<a href="hhttps://calm-springs-24405.herokuapp.com/index.php"><h2 align="center">Tasty Toast</h3></a>
+<a href="https://calm-springs-24405.herokuapp.com/index.php"><h2 align="center">Tasty Toast</h3></a>
 
 <p align="center">
 <strong>A full stack website that visualizes various combination of toast toppings using PHP</strong>
