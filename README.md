@@ -7,7 +7,7 @@
 <p align="center">
     <img src="images/preview.png" alt="Logo">
 
-  <h2 align="center"> <a href="hhttps://calm-springs-24405.herokuapp.com/index.php">Tasty Toast</a></h3>
+  <a href="hhttps://calm-springs-24405.herokuapp.com/index.php"><h2 align="center">Tasty Toast</h3></a>
 
   <p align="center">
     <strong>A full stack website that visualizes various combination of toast toppings using PHP</strong>
@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is the final project I've done for INFO 2300, Intermediate Design and Programming for the Web. I received 148 out of 150. 
+This is the final project I've done for **INFO 2300**, Intermediate Design and Programming for the Web. I received 148 out of 150. 
 
 **My targeted audience is the people who want to visually acquire ideas for toast topping.** They can both view the toppings included in a specific type of toast and the toasts that include a specific topping. Looking through various combinations, the users will notice which toppings/toasts are appearing most frequently; those would be the priority of their shopping. 
 
@@ -73,6 +73,8 @@ To explore more, visit the webiste or look through the codes!
 ![tag](gifs/image.gif)
 
 - Users can upload an image (topping) to the gallery. The source of the images is a required input.
+![tag](gifs/upload-image.gif)
+
 - Users can add both a new tag and an existing tag to the image. They can also delete an existing tag from the image.
 ![tag](gifs/add-existing-tag.gif)
 
