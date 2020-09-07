@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <a href="https://calm-springs-24405.herokuapp.com/index.php"><img src="images/preview.png" alt="Logo"></a>
+    <a href="https://calm-springs-24405.herokuapp.com/index.php"><img src="images/preview.jpeg" alt="Logo"></a>
 </p>
 
 <a href="https://calm-springs-24405.herokuapp.com/index.php"><h2 align="center">Tasty Toast</h3></a>
